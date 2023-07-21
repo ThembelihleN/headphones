@@ -45,4 +45,13 @@
     font-size: 2em;
     text-decoration: none;
   }
-  
+
+  .third-container{
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+  }
+
+  .image-items ul{
+    align-items: center;
+    display: inline;
+  }
