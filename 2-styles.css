@@ -46,6 +46,28 @@
     text-decoration: none;
   }
 
+  .heading{
+    text-align: center;
+    text-decoration-color: white;
+  }
+
+  .button{
+    position: relative;
+    top: 50%;
+    background-color: rgb(248, 66, 66);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .paragraph{
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
   .second-container{
     height: fit-content;
     display: flex;
