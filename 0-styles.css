@@ -14,7 +14,7 @@
 
    html, body{
     margin: 0;
-    padding: 0;
+    padding: 0px;
    }
 
    .header {
@@ -46,12 +46,24 @@
     text-decoration: none;
   }
 
-  .third-container{
-    background-image: url(images/headphones_hero_2.jpg);
-    background-size: cover;
+  .heading{
+    text-align: center;
+    text-decoration-color: white;
   }
 
-  .image-items ul{
-    align-items: center;
-    display: inline;
+  .button{
+    position: relative;
+    top: 50%;
+    background-color: rgb(248, 66, 66);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .paragraph{
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
   }
