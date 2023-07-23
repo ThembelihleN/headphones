@@ -75,11 +75,16 @@
     justify-content: space-around;
     align-items: center;
   }
-  
-  .icons{
-    width: auto;
+  .flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .flexbox-icon{
+    max-width: auto;
     margin: 10px;
-    
   }
 
   .third-container{
