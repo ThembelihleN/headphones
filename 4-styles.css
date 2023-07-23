@@ -61,6 +61,7 @@
     padding: 10px;
   }
 
+
   .paragraph{
     justify-content: center;
     margin-top: 10px;
@@ -95,6 +96,15 @@
   .third-container{
     background-image: url(images/headphones_hero_2.jpg);
     background-size: cover;
+  }
+
+  h2{
+    padding: 20px;
+    color: rgb(253, 249, 249);
+  }
+
+  p{
+    color: rgb(253, 249, 249);
   }
 
   .flexbox-image{
@@ -153,6 +163,8 @@
   }
 
   .icons{
+    color: white;
+    font-size: 30px;
     display: flex;
     flex-direction: row;
   }
