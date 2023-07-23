@@ -9,12 +9,16 @@
 
 
    *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
    }
 
-   html, body{
-    margin: 0;
-    padding: 0;
+   body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
    }
 
    .header {
@@ -68,6 +72,8 @@
     text-align: center;
   }
 
+  /*second container*/
+
   .second-container{
     height: fit-content;
     display: flex;
@@ -87,16 +93,11 @@
     margin: 10px;
   }
 
+  /*third container*/
+
   .third-container{
     background-image: url(images/headphones_hero_2.jpg);
     background-size: cover;
-  }
-
-  .flexbox-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
   }
 
   .flexbox-image{
@@ -105,13 +106,36 @@
     height: 10%;
   }
 
+  /*forth container*/
+
   .forth-container{
-    max-height: max-content;
+    width: 300px;
+    position: absolute;
     justify-content: space-around;
-    align-items: center;
+   align-content: center;
   }
 
-  .footer{
-    background-image: url(images/favicon.png);
-    background-size: cover;
+  .input-box{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid black;
+  }
+
+  .input-box i{
+    width: 20px;
+    float: left;
+    text-align: center;
+  }
+
+  .input-box input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1em;
+    width: 80px;
+    float: left;
+    margin: 0 10px;
   }
